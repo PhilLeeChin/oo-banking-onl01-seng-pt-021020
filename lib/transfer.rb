@@ -19,6 +19,8 @@ class Transfer
       sender.balance -= amount
       receiver.balance += amount
       self.status = "complete"
+    else
+      reverse_transfer
     end
   end
 end
