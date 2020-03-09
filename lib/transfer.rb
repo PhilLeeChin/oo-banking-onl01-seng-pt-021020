@@ -1,6 +1,6 @@
 class Transfer
   # your code here
-  attr_reader :transfer
+  attr_accessor :transfer
 
   def initialize(transfer)
     @transfer = transfer
