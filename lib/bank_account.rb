@@ -20,7 +20,7 @@ class BankAccount
     if balance > 0
       true
     else
-      status = "close"
+      false
     end
   end
 end
