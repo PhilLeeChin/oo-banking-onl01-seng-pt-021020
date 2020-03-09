@@ -9,6 +9,6 @@ class BankAccount
   end
 
   def deposit
-
+    @balance
   end
 end
