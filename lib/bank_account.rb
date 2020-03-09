@@ -11,4 +11,8 @@ class BankAccount
   def deposit(depo_amo)
     self.balance += depo_amo
   end
+
+  def display_balance
+    deposit
+  end
 end
