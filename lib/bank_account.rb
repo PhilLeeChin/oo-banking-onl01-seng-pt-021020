@@ -17,6 +17,6 @@ class BankAccount
   end
 
   def valid?
-    balance > 0 ? true : false
+    balance > 0 && status ? true : false
   end
 end
